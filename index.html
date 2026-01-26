@@ -8,6 +8,7 @@
 <meta name="description" content="Compare the best IPTV service providers in 2026. Reviews, scores, features, and exclusive deals to help you choose the right IPTV subscription.">
 
 <link rel="icon" type="image/png" href="assets/images/logo.png">
+<link rel="icon" type="image/svg+xml" href="assets/images/logo.svg">
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 
 <style>
@@ -164,8 +165,12 @@ footer{
 <body>
 
 <header>
-    <a href="#home" class="logo-container">
-        <img src="assets/images/logo.png" alt="IPTV Reviews Hub Logo" class="site-logo" onerror="this.src='assets/images/logo.svg'">
+    <a href="#home" class="logo-container" aria-label="Home">
+        <picture>
+            <source srcset="assets/images/logo.webp 1x, assets/images/logo@2x.webp 2x" type="image/webp">
+            <source srcset="assets/images/logo.svg" type="image/svg+xml">
+            <img src="assets/images/logo.png" alt="IPTV Reviews Hub Logo" class="site-logo" loading="lazy">
+        </picture>
         <h1 class="site-title">IPTV Reviews Hub</h1>
     </a>
     <nav>
@@ -344,7 +349,11 @@ footer{
 
 <footer>
     <div class="footer-content">
-        <img src="assets/images/logo.png" alt="IPTV Reviews Hub Logo" class="footer-logo" onerror="this.src='assets/images/logo.svg'">
+        <picture>
+            <source srcset="assets/images/logo.webp 1x, assets/images/logo@2x.webp 2x" type="image/webp">
+            <source srcset="assets/images/logo.svg" type="image/svg+xml">
+            <img src="assets/images/logo.png" alt="IPTV Reviews Hub Logo" class="footer-logo" loading="lazy">
+        </picture>
         <span>IPTV Reviews Hub</span>
     </div>
     <p>Copyright © 2026 | All rights reserved.</p>
