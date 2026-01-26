@@ -30,42 +30,16 @@ header{
     align-items:center;
     text-decoration:none;
 }
-.logo-container:hover .site-title{
-    color:#00d4ff;
-    transition: color 0.3s ease;
-}
 .site-logo{
     height:50px;
     width:auto;
     margin-right:15px;
-    transition: transform 0.3s ease;
-    max-width: 100%;
-}
-.site-logo:hover{
-    transform: scale(1.05);
-}
-@media (max-width: 768px) {
-    .site-logo {
-        height: 40px;
-        margin-right: 10px;
-    }
-    .site-title {
-        font-size: 24px;
-    }
-    .footer-logo {
-        height: 25px;
-    }
 }
 .site-title{
     color:#00e0ff;
     margin:0;
     font-size:28px;
     font-weight:700;
-    transition: color 0.3s ease;
-}
-nav{
-    display:flex;
-    align-items:center;
 }
 nav a{
     color:#fff;
@@ -74,7 +48,6 @@ nav a{
     font-weight:500;
     padding:8px 16px;
     border-radius:4px;
-    transition: all 0.3s ease;
 }
 nav a:hover{
     background:#00e0ff;
@@ -85,11 +58,7 @@ nav a:hover{
     text-align:center;
     background:linear-gradient(45deg,#0b0f1a,#1b2338);
 }
-.hero h2{font-size:42px;margin-bottom:15px;}
-.hero ul{list-style:none;padding:0;}
-.hero li{margin:8px 0;color:#ccc;}
 .section{padding:60px;}
-.section h2{text-align:center;margin-bottom:40px;}
 .table{
     width:100%;
     border-collapse:collapse;
@@ -97,7 +66,6 @@ nav a:hover{
 .table th,.table td{
     padding:20px;
     border-bottom:1px solid #222;
-    vertical-align:top;
 }
 .table th{
     background:#111827;
@@ -115,32 +83,16 @@ nav a:hover{
     text-decoration:none;
     font-weight:600;
 }
-.score{
-    font-size:20px;
-    font-weight:700;
-}
-.faq{
-    max-width:900px;
-    margin:auto;
-}
-.faq details{
-    background:#111827;
-    margin-bottom:10px;
-    padding:15px;
-    border-radius:6px;
-}
 footer{
     background:#111827;
     padding:30px;
     text-align:center;
     color:#aaa;
-    border-top: 1px solid #222;
 }
 .footer-logo{
     height:30px;
     width:auto;
     margin-right:10px;
-    opacity:0.8;
 }
 .footer-content{
     display:flex;
@@ -161,11 +113,12 @@ footer{
 }
 </style>
 </head>
+
 <body>
 
 <header>
     <a href="#home" class="logo-container">
-        <img src="https://github.com/iptv-best/iptv-best.github.io/blob/main/logo.png">
+        <img src="logo.png" alt="IPTV Reviews Hub Logo" class="site-logo">
         <h1 class="site-title">IPTV Reviews Hub</h1>
     </a>
     <nav>
@@ -178,168 +131,6 @@ footer{
 
 <section id="home" class="hero">
     <h2>Top 10 Best IPTV Services in 2026</h2>
-    <ul>
-        <li>✔ Comprehensive reviews and comparisons</li>
-        <li>✔ Exclusive deals and discounts</li>
-        <li>✔ Real user ratings and feedback</li>
-        <li>✔ Setup and optimization guides</li>
-    </ul>
-</section>
-
-<section id="recommendations" class="section">
-    <h2>Top 10 Best IPTV Services in 2026</h2>
-
-    <table class="table">
-        <tr>
-            <th>Rank</th>
-            <th>Logo & Name</th>
-            <th>Channels</th>
-            <th>Free Trial</th>
-            <th>Price</th>
-            <th>Action</th>
-        </tr>
-
-        <tr>
-            <td class="rank">1</td>
-            <td>
-                <img src="https://www.reviewstobuy.com/logos/iptv/flash4kiptv.png?v=123" alt="FLASH4K IPTV Logo" style="width:110px;height:auto;margin-bottom:10px;"><br>
-                <strong>FLASH4K IPTV</strong>
-            </td>
-            <td>18,000+ Channels</td>
-            <td>36 Hours Free Trial</td>
-            <td>$11.99</td>
-            <td><a class="btn" href="https://flash4kiptv.com/whmcs/aff.php?aff=42" target="_blank" rel="noopener sponsored">Free Trial</a></td>
-        </tr>
-
-        <tr>
-            <td class="rank">2</td>
-            <td>
-                <img src="https://www.reviewstobuy.com/logos/iptv/freegotv.png?v=123" alt="FreegoTV IPTV Logo" style="width:110px;height:auto;margin-bottom:10px;"><br>
-                <strong>FreegoTV IPTV</strong>
-            </td>
-            <td>50,000+ Channels</td>
-            <td>24 Hours Free Trial</td>
-            <td>$15.00</td>
-            <td><a class="btn" href="https://freegotv.com/billing/aff.php?aff=168" target="_blank" rel="noopener sponsored">Free Trial</a></td>
-        </tr>
-
-        <tr>
-            <td class="rank">3</td>
-            <td>
-                <img src="https://www.reviewstobuy.com/logos/iptv/tivi-live.png" alt="Tivi-Live Logo" style="width:110px;height:auto;margin-bottom:10px;"><br>
-                <strong>Tivi-Live</strong>
-            </td>
-            <td>28,000+ Channels</td>
-            <td>24 Hours Free Trial</td>
-            <td>$15.00</td>
-            <td><a class="btn" href="https://tivi-live.com/billing/aff.php?aff=54" target="_blank" rel="noopener sponsored">Free Trial</a></td>
-        </tr>
-
-        <tr>
-            <td class="rank">4</td>
-            <td>
-                <img src="https://www.reviewstobuy.com/logos/iptv/viewtvy.png" alt="ViewTVY IPTV Logo" style="width:110px;height:auto;margin-bottom:10px;"><br>
-                <strong>ViewTVY</strong>
-            </td>
-            <td>44,000+ Channels</td>
-            <td>24 Hours Free Trial</td>
-            <td>$15.00</td>
-            <td><a class="btn" href="https://viewtvy.com/billing/aff.php?aff=2" target="_blank" rel="noopener sponsored">Free Trial</a></td>
-        </tr>
-
-        <tr>
-            <td class="rank">5</td>
-            <td>
-                <img src="https://www.reviewstobuy.com/logos/iptv/xtremehdsiptv.png?v=45" alt="Xtreme HD IPTV Logo" style="width:110px;height:auto;margin-bottom:10px;"><br>
-                <strong>Xtreme HD IPTV</strong>
-            </td>
-            <td>20,000+ Channels</td>
-            <td>36 Hours Free Trial</td>
-            <td>$15.99</td>
-            <td><a class="btn" href="https://billing.xtremehdsiptv.org/aff.php?aff=10" target="_blank" rel="noopener sponsored">Free Trial</a></td>
-        </tr>
-
-        <tr>
-            <td class="rank">6</td>
-            <td>
-                <img src="https://www.reviewstobuy.com/logos/iptv/ottocean.png?v=123" alt="OTTOcean IPTV Logo" style="width:110px;height:auto;margin-bottom:10px;"><br>
-                <strong>OTTOcean IPTV</strong>
-            </td>
-            <td>20,000+ Channels</td>
-            <td>24 Hours Free Trial</td>
-            <td>$15.00</td>
-            <td><a class="btn" href="https://ottocean.com/store/aff.php?aff=1014" target="_blank" rel="noopener sponsored">Free Trial</a></td>
-        </tr>
-
-        <tr>
-            <td class="rank">7</td>
-            <td>
-                <img src="https://www.reviewstobuy.com/logos/iptv/doubleclicktv.png" alt="DoubleClickTv Logo" style="width:110px;height:auto;margin-bottom:10px;"><br>
-                <strong>DoubleClickTv</strong>
-            </td>
-            <td>28,540+ Channels</td>
-            <td>24 Hours Free Trial</td>
-            <td>$15.00</td>
-            <td><a class="btn" href="https://doubleclicktv.com/billing/aff.php?aff=33" target="_blank" rel="noopener sponsored">Free Trial</a></td>
-        </tr>
-
-        <tr>
-            <td class="rank">8</td>
-            <td>
-                <img src="https://www.reviewstobuy.com/logos/iptv/worthystream.png?v=123" alt="Worthystream IPTV Logo" style="width:110px;height:auto;margin-bottom:10px;"><br>
-                <strong>Worthystream</strong>
-            </td>
-            <td>15,000+ Channels</td>
-            <td>24 Hours Free Trial</td>
-            <td>$15.00</td>
-            <td><a class="btn" href="https://worthystream.com/myac/aff.php?aff=298" target="_blank" rel="noopener sponsored">Free Trial</a></td>
-        </tr>
-
-        <tr>
-            <td class="rank">9</td>
-            <td>
-                <img src="https://www.reviewstobuy.com/logos/iptv/iptvdigi.png?v=123" alt="IPTVDIGI IPTV Logo" style="width:110px;height:auto;margin-bottom:10px;"><br>
-                <strong>IPTVDIGI IPTV</strong>
-            </td>
-            <td>31,000+ Channels</td>
-            <td>24 Hours Free Trial</td>
-            <td>$9.99</td>
-            <td><a class="btn" href="https://iptvdigi.com/?ref=amepqxib" target="_blank" rel="noopener sponsored">Free Trial</a></td>
-        </tr>
-
-        <tr>
-            <td class="rank">10</td>
-            <td>
-                <img src="https://www.reviewstobuy.com/logos/iptv/fireviewtv.png" alt="Fireview TV Logo" style="width:110px;height:auto;margin-bottom:10px;"><br>
-                <strong>Fireview TV</strong>
-            </td>
-            <td>19,880+ Channels</td>
-            <td>24 Hours Free Trial</td>
-            <td>€13.59</td>
-            <td><a class="btn" href="https://fireviewtv.com/r/bestiptv" target="_blank" rel="noopener sponsored">Free Trial</a></td>
-        </tr>
-
-    </table>
-</section>
-
-<section class="section faq">
-    <h2>Frequently Asked Questions</h2>
-
-    <details>
-        <summary>What is the best IPTV?</summary>
-        <p>The best IPTV depends on streaming quality, channel variety, device support, and reliability.</p>
-    </details>
-
-    <details>
-        <summary>Which IPTV player is best for Firestick?</summary>
-        <p>TiviMate and IPTV Smarters are popular and reliable choices.</p>
-    </details>
-
-    <details>
-        <summary>Is IPTV legal?</summary>
-        <p>Legality depends on the provider and the content licensing in your region.</p>
-    </details>
-
 </section>
 
 <footer>
